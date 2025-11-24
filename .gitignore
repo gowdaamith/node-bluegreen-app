@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage directory (for Jest)
+coverage/
+
+# Build artifacts
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Docker
+docker-data/
+docker-compose.override.yml
+
+# Jenkins workspace (safe to ignore)
+.jenkins/
+workspace/
+
+# Lockfiles from other managers
+yarn.lock
+pnpm-lock.yaml
+
+# Nginx logs (if created)
+nginx/*.log
+nginx/logs/
+
+# Misc
+*.tgz
+*.out
+
+# Ignore test results cache
+jest-cache/
+jest-html-reporters-*/ 
